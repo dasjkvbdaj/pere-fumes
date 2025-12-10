@@ -132,16 +132,6 @@ export const ProductDetail: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Description Section (No Tabs) */}
-        <div className="mt-20">
-           <h3 className="font-serif text-2xl font-bold text-charcoal-900 mb-6 border-b border-gray-200 pb-4">Description</h3>
-           <div className="prose max-w-none text-gray-600 leading-relaxed">
-                <p>Experience the allure of {product.name} by {product.brand}. Crafted for the modern individual, this {product.scentType.toLowerCase()} fragrance leaves a lasting impression. 
-                Perfect for {product.gender === 'Unisex' ? 'anyone' : (product.gender === 'Men' ? 'him' : 'her')}, it combines top notes of {product.notes[0]} with a heart of {product.notes[1]} and a base of {product.notes[2]}.</p>
-                <p className="mt-4">Suitable for evening wear and special occasions.</p>
-           </div>
-        </div>
       </div>
     </div>
   );

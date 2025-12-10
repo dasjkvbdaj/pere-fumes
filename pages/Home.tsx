@@ -46,9 +46,9 @@ export const Home: React.FC = () => {
 
             {/* Right Image */}
             <div className="relative">
-              <div className="aspect-[4/3] md:aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+              <div className="aspect-[2/3] md:aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img 
-                  src="/public/hero.png" 
+                  src="/hero.png" 
                   alt="Premium Perfume Collection" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
@@ -65,7 +65,7 @@ export const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative">
                <div className="aspect-square rounded-full overflow-hidden border-8 border-cream-100 shadow-2xl max-w-md mx-auto">
-                 <img src="https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=800" alt="About Père-Fumes" className="w-full h-full object-cover" />
+                 <img src="/public/home-about.png" alt="About Père-Fumes" className="w-full h-full object-cover" />
                </div>
             </div>
             <div className="order-1 md:order-2 text-center md:text-left">

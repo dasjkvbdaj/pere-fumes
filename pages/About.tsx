@@ -26,7 +26,7 @@ export const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
                <img 
-                 src="https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=1000" 
+                 src="/public/about.png" 
                  alt="Perfume Display" 
                  className="w-full h-full object-cover"
                />
